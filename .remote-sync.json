@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ftp.gtzortzopoulos.com",
+  "port": "5309",
+  "target": "/home/gtzortzo/public_html",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "gtzortzo",
+  "password": "tiY86j0Ni1",
+  "watch": []
+}
